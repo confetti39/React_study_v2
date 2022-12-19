@@ -2,6 +2,16 @@
   color: orange;
 }
 
+.new {
+  position: absolute;
+  margin-left: 13rem;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: greenyellow;
+  text-align: center;
+  font-weight: bold;
+}
+
 .profile {
   width: 300px;
   text-align: center;
