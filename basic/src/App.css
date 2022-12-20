@@ -1,7 +1,12 @@
 .orange {
   color: orange;
 }
-
+.avatar {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+}
 .new {
   position: absolute;
   left: 70%;
@@ -12,9 +17,7 @@
   text-transform: uppercase;
   font-weight: bold;
 }
-
 .profile {
-  position: relative;
   width: 300px;
   text-align: center;
   padding: 1rem;
