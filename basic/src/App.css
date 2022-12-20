@@ -4,15 +4,17 @@
 
 .new {
   position: absolute;
-  margin-left: 13rem;
-  padding: 5px;
-  border-radius: 10px;
-  background-color: greenyellow;
-  text-align: center;
+  left: 70%;
+  top: 10%;
+  background-color: aquamarine;
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
   font-weight: bold;
 }
 
 .profile {
+  position: relative;
   width: 300px;
   text-align: center;
   padding: 1rem;
