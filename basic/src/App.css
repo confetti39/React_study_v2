@@ -9,8 +9,14 @@
 }
 .banner {
   text-align: center;
+  margin-top: 5rem;
+  font-size: 2rem;
+  font-weight: bold;
+  background-color: gold;
 }
-.counters {
+.total {
+  font-size: 1rem;
+  margin-left: -1.5rem;
 }
 .counter {
   display: flex;
