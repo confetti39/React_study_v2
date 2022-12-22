@@ -5,6 +5,12 @@
 .container {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+}
+.banner {
+  text-align: center;
+}
+.counters {
 }
 .counter {
   display: flex;
