@@ -8,7 +8,9 @@ export default function AppXY() {
     <div
       className="container"
       onPointerMove={(e) => {
-        setMousePointer({ left: e.clientX, top: e.clientY });
+        // setMousePointer({ left: e.clientX, top: e.clientY });
+        // 만약 수평으로만 이동이 가능하다면?
+        setMousePointer((prev) => ({ ...prev, left: e.clientX }));
       }}
     >
       <div
