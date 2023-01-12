@@ -35,16 +35,28 @@ export default function AppMentors() {
         onClick={() => {
           const prev = prompt(`누구의 이름을 바꾸고 싶은가요?`);
           const current = prompt(`이름을 무엇으로 바꾸고 싶은가요?`);
-          const index = person.mentors.findIndex((data) => {
-            return data.name == prev;
-          });
 
-          if (index == -1) alert(`${prev}라는 이름이 없습니다.`);
+          setPerson((person) => ({
+            ...person,
+            mentors: person.mentors.map((mentor) => {
+              if (mentor.name === prev) {
+                return { ...mentor, name: current };
+              }
+              return mentor;
+            }),
+          }));
 
-          let newObj = { ...person };
-          newObj.mentors[index].name = current;
-          setPerson(newObj);
-          console.log(person);
+          //   const index = person.mentors.findIndex((data) => {
+          //     return data.name == prev;
+          //   });
+
+          //   if (index == -1) alert(`${prev}라는 이름이 없습니다.`);
+
+          //   let newObj = { ...person };
+          //   newObj.mentors[index].name = current;
+          //   setPerson(newObj);
+
+          //   console.log(person);
         }}
       >
         멘토의 이름을 바꾸기
