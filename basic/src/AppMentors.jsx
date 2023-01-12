@@ -1,70 +1,25 @@
-import React, { useState } from "react";
+import React, { useReducer } from "react";
+import personReducer from "./reducer/person-reducer";
 
 export default function AppMentors() {
-  const [person, setPerson] = useState({
-    name: "정요",
-    title: "개발자",
-    mentors: [
-      {
-        id: 1,
-        name: "밥",
-        title: "시니어개발자",
-      },
-      {
-        id: 2,
-        name: "제임스",
-        title: "시니어개발자",
-      },
-    ],
-  });
+  //   const [person, setPerson] = useState(initialPerson);
+  const [person, dispatch] = useReducer(personReducer, initialPerson);
 
   const handleChangeMentor = () => {
     const prev = prompt(`누구의 이름을 바꾸고 싶은가요?`);
     const current = prompt(`이름을 무엇으로 바꾸고 싶은가요?`);
-
-    setPerson((person) => ({
-      ...person,
-      mentors: person.mentors.map((mentor) => {
-        if (mentor.name === prev) {
-          return { ...mentor, name: current };
-        }
-        return mentor;
-      }),
-    }));
-
-    //   const index = person.mentors.findIndex((data) => {
-    //     return data.name == prev;
-    //   });
-
-    //   if (index == -1) alert(`${prev}라는 이름이 없습니다.`);
-
-    //   let newObj = { ...person };
-    //   newObj.mentors[index].name = current;
-    //   setPerson(newObj);
-
-    //   console.log(person);
+    dispatch({ type: "updated", prev, current });
   };
 
   const handleAddMentor = () => {
     const addName = prompt(`추가하려는 멘토의 이름을 입력하세요.`);
     const addTitle = prompt(`추가하려는 멘토의 타이틀을 입력하세요.`);
-
-    const addMentorObj = { name: addName, title: addTitle };
-    let newObj = { ...person };
-    newObj.mentors.push(addMentorObj);
-    setPerson(newObj);
+    dispatch({ type: "added", addName, addTitle });
   };
 
   const handleDeleteMentor = () => {
     const deleteName = prompt(`식제하려는 멘토의 이름을 입력하세요.`);
-
-    const index = person.mentors.findIndex((data) => {
-      return data.name == deleteName;
-    });
-
-    let newObj = { ...person };
-    newObj.mentors.splice(index, 1);
-    setPerson(newObj);
+    dispatch({ type: "deleted", deleteName });
   };
 
   return (
@@ -80,9 +35,26 @@ export default function AppMentors() {
           </li>
         ))}
       </ul>
-      <button onClick={() => handleChangeMentor()}>멘토의 이름을 바꾸기</button>
-      <button onClick={() => handleAddMentor()}>멘토 추가하기</button>
-      <button onClick={() => handleDeleteMentor()}>멘토 삭제하기</button>
+      <button onClick={handleChangeMentor}>멘토의 이름을 바꾸기</button>
+      <button onClick={handleAddMentor}>멘토 추가하기</button>
+      <button onClick={handleDeleteMentor}>멘토 삭제하기</button>
     </div>
   );
 }
+
+const initialPerson = {
+  name: "정요",
+  title: "개발자",
+  mentors: [
+    {
+      id: 1,
+      name: "밥",
+      title: "시니어개발자",
+    },
+    {
+      id: 2,
+      name: "제임스",
+      title: "시니어개발자",
+    },
+  ],
+};
