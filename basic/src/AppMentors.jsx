@@ -18,6 +18,55 @@ export default function AppMentors() {
     ],
   });
 
+  const handleChangeMentor = () => {
+    const prev = prompt(`누구의 이름을 바꾸고 싶은가요?`);
+    const current = prompt(`이름을 무엇으로 바꾸고 싶은가요?`);
+
+    setPerson((person) => ({
+      ...person,
+      mentors: person.mentors.map((mentor) => {
+        if (mentor.name === prev) {
+          return { ...mentor, name: current };
+        }
+        return mentor;
+      }),
+    }));
+
+    //   const index = person.mentors.findIndex((data) => {
+    //     return data.name == prev;
+    //   });
+
+    //   if (index == -1) alert(`${prev}라는 이름이 없습니다.`);
+
+    //   let newObj = { ...person };
+    //   newObj.mentors[index].name = current;
+    //   setPerson(newObj);
+
+    //   console.log(person);
+  };
+
+  const handleAddMentor = () => {
+    const addName = prompt(`추가하려는 멘토의 이름을 입력하세요.`);
+    const addTitle = prompt(`추가하려는 멘토의 타이틀을 입력하세요.`);
+
+    const addMentorObj = { name: addName, title: addTitle };
+    let newObj = { ...person };
+    newObj.mentors.push(addMentorObj);
+    setPerson(newObj);
+  };
+
+  const handleDeleteMentor = () => {
+    const deleteName = prompt(`식제하려는 멘토의 이름을 입력하세요.`);
+
+    const index = person.mentors.findIndex((data) => {
+      return data.name == deleteName;
+    });
+
+    let newObj = { ...person };
+    newObj.mentors.splice(index, 1);
+    setPerson(newObj);
+  };
+
   return (
     <div>
       <h1>
@@ -31,36 +80,9 @@ export default function AppMentors() {
           </li>
         ))}
       </ul>
-      <button
-        onClick={() => {
-          const prev = prompt(`누구의 이름을 바꾸고 싶은가요?`);
-          const current = prompt(`이름을 무엇으로 바꾸고 싶은가요?`);
-
-          setPerson((person) => ({
-            ...person,
-            mentors: person.mentors.map((mentor) => {
-              if (mentor.name === prev) {
-                return { ...mentor, name: current };
-              }
-              return mentor;
-            }),
-          }));
-
-          //   const index = person.mentors.findIndex((data) => {
-          //     return data.name == prev;
-          //   });
-
-          //   if (index == -1) alert(`${prev}라는 이름이 없습니다.`);
-
-          //   let newObj = { ...person };
-          //   newObj.mentors[index].name = current;
-          //   setPerson(newObj);
-
-          //   console.log(person);
-        }}
-      >
-        멘토의 이름을 바꾸기
-      </button>
+      <button onClick={() => handleChangeMentor()}>멘토의 이름을 바꾸기</button>
+      <button onClick={() => handleAddMentor()}>멘토 추가하기</button>
+      <button onClick={() => handleDeleteMentor()}>멘토 삭제하기</button>
     </div>
   );
 }
