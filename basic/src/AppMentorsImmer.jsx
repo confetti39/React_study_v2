@@ -8,7 +8,7 @@ export default function AppMentorsImmer() {
     const prev = prompt(`누구의 이름을 바꾸고 싶은가요?`);
     const current = prompt(`이름을 무엇으로 바꾸고 싶은가요?`);
     updatePerson((person) => {
-      const mentor = person.mentor.map((mentor) => mentor.name === prev);
+      const mentor = person.mentors.find((mentor) => mentor.name === prev);
       mentor.name = current;
     });
   };
@@ -16,7 +16,9 @@ export default function AppMentorsImmer() {
   const handleAdd = () => {
     const name = prompt(`추가하려는 멘토의 이름을 입력하세요.`);
     const title = prompt(`추가하려는 멘토의 타이틀을 입력하세요.`);
-    updatePerson((person) => person.mentors.push({ name, title }));
+    updatePerson((person) => {
+      person.mentors.push({ name: name, title: title });
+    });
   };
 
   const handleDelete = () => {
@@ -43,9 +45,9 @@ export default function AppMentorsImmer() {
             </li>
           ))}
         </ul>
-        <button onClick={handleChangeMentor}>멘토의 이름을 바꾸기</button>
-        <button onClick={handleAddMentor}>멘토 추가하기</button>
-        <button onClick={handleDeleteMentor}>멘토 삭제하기</button>
+        <button onClick={handleUpdate}>멘토의 이름을 바꾸기</button>
+        <button onClick={handleAdd}>멘토 추가하기</button>
+        <button onClick={handleDelete}>멘토 삭제하기</button>
       </div>
     </div>
   );
