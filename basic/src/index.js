@@ -1,14 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import AppCard from "./AppCard";
-import AppForm from "./AppForm";
+import AppTheme from "./AppTheme";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <AppCard />
+    <AppTheme />
   </React.StrictMode>
 );
 
