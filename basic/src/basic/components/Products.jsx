@@ -9,14 +9,15 @@ export default function Products() {
 
   useEffect(() => {
     setLoading(true);
-    fetch(`data/${checked ? "sale_" : ""}products.json`)
+    fetch(`data/${checked ? "sale_" : ""}productsd.json`)
       .then((res) => res.json())
       .then((data) => {
         console.log("🔥 데이터를 네트워크에서 받아옴");
         setProducts(data);
         setLoading(false);
       })
-      .catch(() => setError(true));
+      .catch(() => setError(true))
+      .finally(() => setLoading(false));
     return () => {
       console.log("🧹 깨끗하게 청소하는 일들을 합니다.");
     };
