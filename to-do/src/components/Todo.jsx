@@ -1,9 +1,24 @@
-import React, { useState } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 export default function Todo() {
   const [addTodo, setAddTodo] = useState("");
-  const [todo, setTodo] = useState(["밥먹기", "공부하기"]);
+  const [todo, setTodo] = useState([]);
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const mounted = useRef(false);
+
+  useEffect(() => {
+    console.log(JSON.parse(localStorage.getItem("todo")));
+    setTodo(JSON.parse(localStorage.getItem("todo")));
+  }, []);
+
+  useEffect(() => {
+    if (!mounted.current) {
+      mounted.current = true; //처음 mount될 때 실행되는 것을 막기위해 넣은 코드임.
+    } else {
+      console.log("reset");
+      localStorage.setItem("todo", JSON.stringify(todo));
+    }
+  }, [todo]);
 
   const handleChange = (e) => {
     e.preventDefault();
@@ -20,11 +35,19 @@ export default function Todo() {
       //좀 더 보완해야 함
     }
   };
+  const handleDeleteTodo = (deleteTodo) => {
+    const index = todo.findIndex((data) => {
+      return data == deleteTodo;
+    });
+    let newArr = [...todo];
+    newArr.splice(index, 1);
+    setTodo(newArr);
+  };
 
   return (
     <div>
       {isDarkMode ? (
-        <div>
+        <div className="darkmode">
           <button onClick={() => setIsDarkMode((darkmode) => !darkmode)}>
             lightmode
           </button>
@@ -32,7 +55,12 @@ export default function Todo() {
             return (
               <div>
                 <input type="checkbox" name="todo" id="todo" />
-                <label for="todo">{todo}</label>
+                <label for="todo" htmlFor="todo">
+                  {todo}
+                </label>
+                <button onClick={(todo) => handleDeleteTodo(todo)}>
+                  지우기
+                </button>
               </div>
             );
           })}
@@ -41,32 +69,26 @@ export default function Todo() {
             name="addTodo"
             placeholder="Add Todo"
             value={addTodo}
-            onChange={(e) => {
-              handleChange(e);
-            }}
-            onKeyDown={(e) => {
-              handleKeyDown(e);
-            }}
+            onChange={(e) => handleChange(e)}
+            // onKeyDown={(e) => handleKeyDown(e)}
           />
-          <button
-            onClick={() => {
-              handleAddTodo();
-              setAddTodo("");
-            }}
-          >
-            Add
-          </button>
+          <button onClick={() => handleAddTodo()}>Add</button>
         </div>
       ) : (
         <div>
           <button onClick={() => setIsDarkMode((darkmode) => !darkmode)}>
             darkmode
           </button>
-          {todo.map((todo) => {
+          {todo.map((todo, i) => {
             return (
               <div>
                 <input type="checkbox" name="todo" id="todo" />
-                <label for="todo">{todo}</label>
+                <label for="todo" htmlFor="todo">
+                  {todo}
+                </label>
+                <button onClick={(todo) => handleDeleteTodo(todo)}>
+                  지우기
+                </button>
               </div>
             );
           })}
@@ -75,21 +97,10 @@ export default function Todo() {
             name="addTodo"
             placeholder="Add Todo"
             value={addTodo}
-            onChange={(e) => {
-              handleChange(e);
-            }}
-            // onKeyDown={(e) => {
-            //   handleKeyDown(e);
-            // }}
+            onChange={(e) => handleChange(e)}
+            // onKeyDown={(e) => handleKeyDown(e)}
           />
-          <button
-            onClick={() => {
-              handleAddTodo();
-              setAddTodo("");
-            }}
-          >
-            Add
-          </button>
+          <button onClick={() => handleAddTodo()}>Add</button>
         </div>
       )}
     </div>
