@@ -1,13 +1,14 @@
 import React, { useState, useEffect, useRef } from "react";
+import "../css/todo.css";
 
 export default function Todo() {
   const [addTodo, setAddTodo] = useState("");
   const [todo, setTodo] = useState([]);
-  const [isDarkMode, setIsDarkMode] = useState(false);
+  const [isDarkMode, setIsDarkMode] = useState(false); //다크모드 상태도 저장해놓으면 좋을듯
+  const [todoFilter, setTodoFilter] = useState("all");
   const mounted = useRef(false);
 
   useEffect(() => {
-    console.log(JSON.parse(localStorage.getItem("todo")));
     setTodo(JSON.parse(localStorage.getItem("todo")));
   }, []);
 
@@ -15,7 +16,6 @@ export default function Todo() {
     if (!mounted.current) {
       mounted.current = true; //처음 mount될 때 실행되는 것을 막기위해 넣은 코드임.
     } else {
-      console.log("reset");
       localStorage.setItem("todo", JSON.stringify(todo));
     }
   }, [todo]);
@@ -28,37 +28,38 @@ export default function Todo() {
     setTodo(() => [...todo, addTodo]);
     setAddTodo("");
   };
-  const handleKeyDown = (e) => {
+  const handleKeyPress = (e) => {
     if (e.key === "Enter") {
       handleAddTodo();
       //현재 영어로 Input 넣고 엔터치면 되는데, 한글로 input 넣고 엔터치면 중복으로 todo 등록됨.
-      //좀 더 보완해야 함
+      //=> onKeyDown -> onKeyPress로 바꾸면 해결 됨.
     }
   };
-  const handleDeleteTodo = (deleteTodo) => {
-    const index = todo.findIndex((data) => {
-      return data == deleteTodo;
-    });
+  const handleDeleteTodo = (deleteTodoIndex) => {
     let newArr = [...todo];
-    newArr.splice(index, 1);
+    newArr.splice(deleteTodoIndex, 1);
     setTodo(newArr);
   };
 
   return (
     <div>
       {isDarkMode ? (
+        // 다크 모드
         <div className="darkmode">
           <button onClick={() => setIsDarkMode((darkmode) => !darkmode)}>
-            lightmode
+            darkmode
           </button>
-          {todo.map((todo, i) => {
+          {todo.map((selectTodo, index) => {
             return (
-              <div>
+              <div key={index}>
                 <input type="checkbox" name="todo" id="todo" />
-                <label for="todo" htmlFor="todo">
-                  {todo}
-                </label>
-                <button onClick={(todo) => handleDeleteTodo(todo)}>
+                <label htmlFor="todo">{selectTodo}</label>
+                <button
+                  onClick={() => {
+                    // 자꾸 arrow function 인자 안에 index, todo 넣어서 안되는 것이었음. 주의해야 함.
+                    handleDeleteTodo(index);
+                  }}
+                >
                   지우기
                 </button>
               </div>
@@ -70,25 +71,27 @@ export default function Todo() {
             placeholder="Add Todo"
             value={addTodo}
             onChange={(e) => handleChange(e)}
-            // onKeyDown={(e) => handleKeyDown(e)}
+            onKeyPress={(e) => handleKeyPress(e)}
           />
           <button onClick={() => handleAddTodo()}>Add</button>
         </div>
       ) : (
+        // 라이트 모드
         <div>
           <button onClick={() => setIsDarkMode((darkmode) => !darkmode)}>
             darkmode
           </button>
-          {todo.map((todo, i) => {
+          <button onClick={() => setTodoFilter("all")}>all</button>
+          <button onClick={() => setTodoFilter("active")}>active</button>
+          <button onClick={() => setTodoFilter("completed")}>completed</button>
+          {todo.map((selectTodo, index) => {
             return (
-              <div>
+              <div key={index}>
                 <input type="checkbox" name="todo" id="todo" />
-                <label for="todo" htmlFor="todo">
-                  {todo}
-                </label>
-                <button onClick={(todo) => handleDeleteTodo(todo)}>
-                  지우기
-                </button>
+                <label htmlFor="todo">{selectTodo}</label>
+                <button onClick={() => handleDeleteTodo(index)}>지우기</button>
+                {/* deleteTodo: arrow function 인자 안에 index, todo 넣어서 안되는
+                것이었음. 주의해야 함. */}
               </div>
             );
           })}
@@ -98,7 +101,7 @@ export default function Todo() {
             placeholder="Add Todo"
             value={addTodo}
             onChange={(e) => handleChange(e)}
-            // onKeyDown={(e) => handleKeyDown(e)}
+            onKeyPress={(e) => handleKeyPress(e)}
           />
           <button onClick={() => handleAddTodo()}>Add</button>
         </div>
