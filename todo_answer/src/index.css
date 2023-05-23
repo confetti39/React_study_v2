@@ -2,10 +2,17 @@
   --color-bg-dark: #f5f5f5;
   --color-bg: #fdfffd;
   --color-grey: #d1d1d1;
-  --color-text: hsl(235, 27%, 18%);
+  --color-text: #22243b;
   --color-accent: #f16e03;
   --color-white: white;
   --color-scrollbar: #aaa7a7;
+}
+
+html.dark {
+  --color-bg-dark: #1a1c35;
+  --color-bg: #22243b;
+  --color-grey: #4e4e4e;
+  --color-text: #fdfffd;
 }
 
 body {
