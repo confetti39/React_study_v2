@@ -1,0 +1,92 @@
+{
+  "kind": "youtube#videoListResponse",
+  "etag": "2cjqb73Frrkul3PYAuRA27u6qcs",
+  "items": [
+    {
+      "kind": "youtube#video",
+      "etag": "G25QxDM5-ZIxn-1OP1PPk4LxvsE",
+      "id": "owjVpYCmwcg",
+      "snippet": {
+        "publishedAt": "2023-06-13T09:13:02Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "BTS (방탄소년단) 'Take Two' Live Clip #2023BTSFESTA",
+        "description": "Connect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://btsblog.ibighit.com",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/owjVpYCmwcg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/owjVpYCmwcg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/owjVpYCmwcg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/owjVpYCmwcg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/owjVpYCmwcg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "tags": [
+          "방탄소년단",
+          "BTS",
+          "BANGTAN",
+          "알엠",
+          "RM",
+          "슈가",
+          "SUGA",
+          "제이홉",
+          "jhope",
+          "지민",
+          "정국",
+          "k-pop",
+          "방탄",
+          "j-hope",
+          "Jung Kook",
+          "Jimin",
+          "BTS V",
+          "Jin"
+        ],
+        "categoryId": "10",
+        "liveBroadcastContent": "none",
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "BTS (방탄소년단) 'Take Two' Live Clip #2023BTSFESTA",
+          "description": "Connect with BTS: \nhttps://ibighit.com/bts \nhttp://twitter.com/BTS_bighit\nhttp://twitter.com/BTS_twt \nhttp://www.facebook.com/bangtan.official \nhttps://www.youtube.com/user/BANGTANTV \nhttp://instagram.com/BTS.bighitofficial \nhttps://www.tiktok.com/@bts_official_bighit\nhttps://weverse.onelink.me/qt3S/94808190\nhttps://www.weibo.com/BTSbighit\nhttps://www.weibo.com/BTSmembers \nhttp://btsblog.ibighit.com"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT4M5S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "7278553",
+        "likeCount": "1390444",
+        "favoriteCount": "0",
+        "commentCount": "83087"
+      }
+    }
+  ],
+  "pageInfo": {
+    "totalResults": 1,
+    "resultsPerPage": 1
+  }
+}
