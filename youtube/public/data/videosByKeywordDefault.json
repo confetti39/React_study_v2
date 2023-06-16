@@ -1,0 +1,862 @@
+{
+  "kind": "youtube#searchListResponse",
+  "etag": "RrRsjaFObE8ARt6nYOevqIxLSuE",
+  "nextPageToken": "CBkQAA",
+  "regionCode": "KR",
+  "pageInfo": {
+    "totalResults": 1000000,
+    "resultsPerPage": 25
+  },
+  "items": [
+    {
+      "kind": "youtube#searchResult",
+      "etag": "enxQGF07iE4Dqp5YgnUwbYswN5M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "wOyYBJ9ndA4"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-15T02:43:00Z",
+        "channelId": "UCkbIBZkpz6waZsbacAzGgoA",
+        "title": "[대교] 알아주는 선생님 - 눈높이 장형심 선생님 편",
+        "description": "어른도 일 하기 싫은 날이 있다. 아이들도 마찬가지다. 때론 매뉴얼이 아닌 아이의 감정을 따라간다. 감정을 알아줄수록 성장은 커진다.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/wOyYBJ9ndA4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/wOyYBJ9ndA4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/wOyYBJ9ndA4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "세상에서 가장 큰 학교 I 대교",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-15T02:43:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "z6dY-ibSqyhybyeLNgt_mpGgl4k",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uUB77IbhXbI"
+      },
+      "snippet": {
+        "publishedAt": "2020-04-14T06:12:44Z",
+        "channelId": "UCdzrShGeBgu6ssJaj8omlXQ",
+        "title": "YouthWithYou 青春有你2 未播花絮：LISA教王清跳主题曲舞蹈LISA teaches YvonneWang the Theme Dance",
+        "description": "《青春有你2》未播花絮：LISA教#王清跳主题曲舞蹈，告诉基础差的训练生要更努力、更严格督促自己！是我们的超负责舞蹈导师没 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uUB77IbhXbI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uUB77IbhXbI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uUB77IbhXbI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Youth With You",
+        "liveBroadcastContent": "none",
+        "publishTime": "2020-04-14T06:12:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "Q1W_xzeLBU8O7bMosbOJPo9kQaA",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Iiukq_ilT0Y"
+      },
+      "snippet": {
+        "publishedAt": "2018-04-11T15:00:01Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "Ep4 It‘s on you and I | BTS: Burn the Stage",
+        "description": "Can the show go on? BTS begin to wrap up their South America tour. Day-by-day, we see how the members passionately discuss ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Iiukq_ilT0Y/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Iiukq_ilT0Y/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Iiukq_ilT0Y/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-04-11T15:00:01Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "ZLZS7djA_fZGexqXGG9E2b9uiPo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "IXKJF04BFEI"
+      },
+      "snippet": {
+        "publishedAt": "2022-12-15T10:26:55Z",
+        "channelId": "UC7cF2ZYvGm_zgrX-xCV88mA",
+        "title": "&quot;1년만에 6배 급증&quot;…역마진 눈덩이 우려/한국경제TV뉴스",
+        "description": "증권사들의 파생결합사채 발행이 1년만에 여섯배가 급증했습니다. 증권부 홍헌표 기자입니다. #파생결합사채 #유동성 #증권사 [기사 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/IXKJF04BFEI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/IXKJF04BFEI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/IXKJF04BFEI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "한국경제TV뉴스",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-12-15T10:26:55Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "23BcwrsocYYzkC9eU8Lq1B29Lnw",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "fNQXpvbOUFc"
+      },
+      "snippet": {
+        "publishedAt": "2021-12-18T01:51:20Z",
+        "channelId": "UCMurFWpRhMHUAC-0nqrrfbg",
+        "title": "Stephen Curry The Only Player In NBA History To Get Fouled From Half-Court!",
+        "description": "DISCLAIMER - All clips property of the NBA. No copyright infringement is intended, all videos are edited to follow the \"Free Use\" ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/fNQXpvbOUFc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/fNQXpvbOUFc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/fNQXpvbOUFc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NBA Highlights",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-12-18T01:51:20Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "WgbXhuWoJdcJJkw1rtMUU3afqgU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "sbJYfReMq-o"
+      },
+      "snippet": {
+        "publishedAt": "2018-06-06T16:02:18Z",
+        "channelId": "UCgLQkRAZsFN6fhqxFyx8qhQ",
+        "title": "Impulse - Ep 7 &quot;He Said, She Said&quot;",
+        "description": "After Henry and Clay have a fight, Cleo tries to make amends by inviting the Boones over for dinner. But the evening takes a ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/sbJYfReMq-o/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/sbJYfReMq-o/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/sbJYfReMq-o/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Impulse",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-06-06T16:02:18Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "gOg19-XK-uBhKpuxJtPqwYGsx4o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "A-_vPLYLOYk"
+      },
+      "snippet": {
+        "publishedAt": "2022-04-28T06:01:08Z",
+        "channelId": "UCnXNukjRxXGD8aeZGRV-lYg",
+        "title": "3연전 사구 8개… 메츠 vs 세인트루이스, 화끈하게 붙었다 #SPORTSTIME",
+        "description": "뉴욕메츠 #세인트루이스 #벤치클리어링 뉴욕메츠와 세인트루이스의 경기에서 벤치클리어링이 발생했습니다. 3연전 동안 사구는 8개.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/A-_vPLYLOYk/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/A-_vPLYLOYk/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/A-_vPLYLOYk/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "스포타임",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-04-28T06:01:08Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "QW6troS42cVHOglM8mhXo8jJI6w",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "2I3GPvwWiHc"
+      },
+      "snippet": {
+        "publishedAt": "2022-05-25T14:00:00Z",
+        "channelId": "UCc-N24Y5OA0gqbjBwe1ttfA",
+        "title": "Things We Just Learned About The TV Show &#39;Cops&#39;",
+        "description": "Many of us can probably remember hearing \"Bad boys, bad boys, whatcha gonna do? Whatcha gonna do when they come for you ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/2I3GPvwWiHc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/2I3GPvwWiHc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/2I3GPvwWiHc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Weird History",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-05-25T14:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "GHWoIA4nHaRN-IHgsaWlLiNc4co",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "uErZb6g_uEA"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-15T12:00:45Z",
+        "channelId": "UCPwkISJgK5PdMZ08D9O3XsA",
+        "title": "Skill and finish challenge‼️ #football #soccer #skills",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/uErZb6g_uEA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/uErZb6g_uEA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/uErZb6g_uEA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Radheya Marca",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-15T12:00:45Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "pbYJgFbOyWcTCfzhdkdlA2KxmNc",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Tbh11YMdVlQ"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-05T12:20:06Z",
+        "channelId": "UCqSpJtH1v_IBOV7HFRdesIg",
+        "title": "초간단 반묶음 가시머리🖤 #shorts",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Tbh11YMdVlQ/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Tbh11YMdVlQ/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Tbh11YMdVlQ/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "연홍 yeonhong",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-05T12:20:06Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "uGn4sW076ytJiT_X4PGA7MsuaTs",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "-QwVcydq-tI"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-15T08:00:00Z",
+        "channelId": "UC0htUSwcxfSGNfK_5Q28JkA",
+        "title": "한국인은 절대로 사용할 수 없는 김밥 마는 기계",
+        "description": "캘리포니아롤 생각보다 살이 많이 찐답니다. 시청해 주셔서 감사합니다. #캘리포니아롤 #김밥 #김밥기계.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/-QwVcydq-tI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/-QwVcydq-tI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/-QwVcydq-tI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "1분요리 뚝딱이형",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-15T08:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "DPxZOn1ubfEf7BES-7i8PJYBuSg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "adMBDxnhJMw"
+      },
+      "snippet": {
+        "publishedAt": "2018-04-25T15:00:00Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "Ep6 Moonchild | BTS: Burn the Stage",
+        "description": "A surprise appear while in Southeast Asia: BTS are nominated for a Billboard Music Award! Will success on the global stage ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/adMBDxnhJMw/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/adMBDxnhJMw/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/adMBDxnhJMw/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-04-25T15:00:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "jyhp9fPusvlNI5TnRwbY-ZemAbY",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "Ezpfcd3u6o4"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-17T14:23:59Z",
+        "channelId": "UCIVl4K2afJgLJv0b2ToTs_g",
+        "title": "Air India&#39;s $90 Billion Strategy 🚀",
+        "description": "Check out GrowthX: https://growthx.cc/apply Experience the power of social learning with the top 1% founders and operators from ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/Ezpfcd3u6o4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/Ezpfcd3u6o4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/Ezpfcd3u6o4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "GrowthX",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-17T14:23:59Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "6C-hM66fht31Ko6ZSM_El5rDx7c",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "L38H9yVb3d8"
+      },
+      "snippet": {
+        "publishedAt": "2018-03-28T15:00:50Z",
+        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
+        "title": "Ep2 You already have the answer | BTS: Burn the Stage",
+        "description": "A moment of triumph takes a scary turn: Jungkook, the youngest member, falls terribly ill. The Wings tour officially kicks off with a ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/L38H9yVb3d8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/L38H9yVb3d8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/L38H9yVb3d8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "BANGTANTV",
+        "liveBroadcastContent": "none",
+        "publishTime": "2018-03-28T15:00:50Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "lXJvptt7fFOO0N4IjH12zdSAF4g",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "xNPcH7DZI84"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-11T15:31:00Z",
+        "channelId": "UCkL5R6cnLVIoKYtcY3uJw9Q",
+        "title": "Un paracaidista profesional haciendo algo epic",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/xNPcH7DZI84/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/xNPcH7DZI84/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/xNPcH7DZI84/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Mike Fajardo",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-11T15:31:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "q6Bn6RzFWo0pHqOOkpqNOWGD0Kg",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "kO9YQspboXc"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-15T21:16:44Z",
+        "channelId": "UCt5Fb3qCwdyKWX95ELxM_4A",
+        "title": "Rabo de cavalo com trança!",
+        "description": "Quer se tornar especialista em Penteados? @jessicacarolinehair.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/kO9YQspboXc/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/kO9YQspboXc/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/kO9YQspboXc/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Jessica carolinehair",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-15T21:16:44Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "1JPR7W7V7b4EO00ObdMosM7tNJ0",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "TLGJAqI4mLg"
+      },
+      "snippet": {
+        "publishedAt": "2023-04-30T17:42:51Z",
+        "channelId": "UC6khvHxqs_5VySwJ6amtG8Q",
+        "title": "10 KM RACE 💪 in 38’:44” - 4th PLACE ❤️ Pace of 3’:52”/km! #running #motivation #sport",
+        "description": "",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/TLGJAqI4mLg/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/TLGJAqI4mLg/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/TLGJAqI4mLg/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "The Fashion Jogger",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-04-30T17:42:51Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "AOzxdbJIgjN3l4u4yvaj3dGzums",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nsYy-bDStg4"
+      },
+      "snippet": {
+        "publishedAt": "2021-09-13T21:27:33Z",
+        "channelId": "UCaQyfI2ViHt86Q2EpA-Op-w",
+        "title": "Hải Quan Tinh Anh - Tập 1 (Lồng Tiếng) Viên Vỹ Hào, Huỳnh Trí Văn, Trần Gia Lạc",
+        "description": "【TVBAnywhere North America Viet】là dịch vụ xem phim độc quyền trình chiếu các bộ phim TVB hay và kinh điển bằng Tiếng ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nsYy-bDStg4/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nsYy-bDStg4/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nsYy-bDStg4/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Kênh TVB tiếng Việt",
+        "liveBroadcastContent": "none",
+        "publishTime": "2021-09-13T21:27:33Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "2dovvfrkKAXo_HR_uwJ3gxN7Jg4",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "DKGob4676WY"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-12T15:03:00Z",
+        "channelId": "UCSgxDKUSCNsq9UcrpQZXo5w",
+        "title": "[스마트카라] 수분제로기술을 생각카라_수분편_30s",
+        "description": "삶고, 데치고, 찌고, 끓이고 한국인의 음식엔 수분이 많습니다 그래서 음식물처리기 고를 땐 수분제로기술을 생각카라! 수분을 제로로 ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/DKGob4676WY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/DKGob4676WY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/DKGob4676WY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "스마트카라",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-12T15:03:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "g5coSLxaGVGk0hExexYlDlNXoQU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "PvVYATjlWdI"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-15T08:18:00Z",
+        "channelId": "UC2R5IaEmsJDUymIPxAGYBWg",
+        "title": "Extra Proteksi dengan Nutrisi Alami BioActive dari Greenfields Fresh Milk Pasteurisasi! #StartFresh",
+        "description": "Setiap harinya tentu Proteksi bagi tubuh kita sangat penting. Hanya Greenfields Fresh Milk Pasteurisasi yang nutrisi Bioactivenya ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/PvVYATjlWdI/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/PvVYATjlWdI/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/PvVYATjlWdI/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Greenfields ID",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-15T08:18:00Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "xobCsnnv5ILlrM-8ENBmUMXYH1M",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "HEBKTuU39MY"
+      },
+      "snippet": {
+        "publishedAt": "2017-06-27T04:18:16Z",
+        "channelId": "UCsOW9TPy2TKkqCchUHL04Fg",
+        "title": "[맛있는 녀석들 Tasty Guys] 111회 &quot;부대볶음 &amp; 골뱅이 탕&quot;",
+        "description": "먹어 본 사람이라야 제대로 된 맛을 아는 법~ 마음 푹 놓고, 믿고 따르는! 맛 좀 아는 뚱 MC들의 친절한 고급 제안서 \"맛있는 녀석들\" ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/HEBKTuU39MY/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/HEBKTuU39MY/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/HEBKTuU39MY/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "맛있는 녀석들 (Tasty Guys)",
+        "liveBroadcastContent": "none",
+        "publishTime": "2017-06-27T04:18:16Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "5DVLLP9MpTXunwcuXff_DNsG92o",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "nT8t4yuiVHs"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-17T13:07:07Z",
+        "channelId": "UC-zK_W8gTJvZ70pLeLKihNQ",
+        "title": "Ponyo Ramen by studio Ghibli🍜 #ramen",
+        "description": "ramennoodles #anime #studioghibli #food #japan #noodles #japanesefood #animeedit.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/nT8t4yuiVHs/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/nT8t4yuiVHs/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/nT8t4yuiVHs/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "A Couch Potato Girl",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-17T13:07:07Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "PQ7UX9qhRtdXO7-EalZpu3YSkzU",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "rtJoBt82FgM"
+      },
+      "snippet": {
+        "publishedAt": "2023-05-15T16:29:26Z",
+        "channelId": "UCovYKa-AbONO9cRcNaYip1g",
+        "title": "Zoflora Cleans Home Beautifully 30” Range",
+        "description": "Effortlessly clean and uplift every room in your home with the indulgently fragranced Zoflora cleaning range.",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/rtJoBt82FgM/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/rtJoBt82FgM/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/rtJoBt82FgM/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Zoflora UK",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-05-15T16:29:26Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "m4SkEVUR7cDnOUqe90G3p_TUPbo",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "dCNvnKJ_TO8"
+      },
+      "snippet": {
+        "publishedAt": "2022-02-17T05:49:14Z",
+        "channelId": "UCMurFWpRhMHUAC-0nqrrfbg",
+        "title": "Los Angeles Lakers vs Utah Jazz Full Game Highlights | 2021-22 NBA Season",
+        "description": "DISCLAIMER - All clips property of the NBA. No copyright infringement is intended, all videos are edited to follow the \"Free Use\" ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/dCNvnKJ_TO8/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/dCNvnKJ_TO8/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/dCNvnKJ_TO8/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "NBA Highlights",
+        "liveBroadcastContent": "none",
+        "publishTime": "2022-02-17T05:49:14Z"
+      }
+    },
+    {
+      "kind": "youtube#searchResult",
+      "etag": "nqsMfkYvedxac-SRWl50h3EKJJM",
+      "id": {
+        "kind": "youtube#video",
+        "videoId": "T5gBUmQapYA"
+      },
+      "snippet": {
+        "publishedAt": "2023-06-15T22:38:22Z",
+        "channelId": "UCWijW6tW0iI5ghsAbWDFtTg",
+        "title": "O É da Coisa de 15/06/23, com Reinaldo Azevedo: Patriotismo; Do Val e o golpe; Lula, gestão e futuro",
+        "description": "O É da Coisa com Reinaldo Azevedo. Se inscreva no canal: https://tinyurl.com/inscricaobnfm Entre no nosso site: ...",
+        "thumbnails": {
+          "default": {
+            "url": "https://i.ytimg.com/vi/T5gBUmQapYA/default.jpg",
+            "width": 120,
+            "height": 90
+          },
+          "medium": {
+            "url": "https://i.ytimg.com/vi/T5gBUmQapYA/mqdefault.jpg",
+            "width": 320,
+            "height": 180
+          },
+          "high": {
+            "url": "https://i.ytimg.com/vi/T5gBUmQapYA/hqdefault.jpg",
+            "width": 480,
+            "height": 360
+          }
+        },
+        "channelTitle": "Rádio BandNews FM",
+        "liveBroadcastContent": "none",
+        "publishTime": "2023-06-15T22:38:22Z"
+      }
+    }
+  ]
+}
