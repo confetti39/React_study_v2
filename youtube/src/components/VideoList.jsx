@@ -4,8 +4,8 @@ import VideoBox from "./VideoBox";
 export default function VideoList({ isMainPage, keyword }) {
   const fetchVideos = async () => {
     return await fetch(
-      `http://localhost:3000/data/videosByKeyword${
-        isMainPage ? `Default` : `BTS`
+      `http://localhost:3000/data/${
+        isMainPage ? `mostPopularVideos` : `videosByKeywordBTS`
       }.json`
     ).then((res) => res.json());
   };

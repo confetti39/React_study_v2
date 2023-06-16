@@ -16,6 +16,7 @@ export default function WatchVideo() {
     <>
       <iframe
         id="player"
+        title={videoId}
         type="text/html"
         width="640"
         height="390"
@@ -24,7 +25,7 @@ export default function WatchVideo() {
       ></iframe>
       <h2>{data.items[0].snippet.title}</h2>
       <p>{data.items[0].snippet.publishedAt}</p>
-      <p>{data.items[0].snippet.channelId}</p>
+      <p>{data.items[0].snippet.channelTitle}</p>
       <p>{data.items[0].snippet.description}</p>
       {data.items[0].snippet.tags.map((tag, index) => {
         return <span key={index}>{tag} </span>;

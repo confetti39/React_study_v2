@@ -1,856 +1,440 @@
 {
-  "kind": "youtube#searchListResponse",
-  "etag": "ZLFpAyWz8Pst4mjljhiq-CjREHU",
-  "nextPageToken": "CBkQAA",
-  "regionCode": "KR",
-  "pageInfo": {
-    "totalResults": 1000000,
-    "resultsPerPage": 25
-  },
+  "kind": "youtube#videoListResponse",
+  "etag": "NDpvutfjn6AdJzTDORiDzQIjM_g",
   "items": [
     {
-      "kind": "youtube#searchResult",
-      "etag": "dnPv0ZPAUABawKb6wQw5f3IKMLs",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "owjVpYCmwcg"
-      },
+      "kind": "youtube#video",
+      "etag": "wm2hZRAfeenzgqHz6CgbQ3kJSFQ",
+      "id": "G73cVgUHiMg",
       "snippet": {
-        "publishedAt": "2023-06-13T09:13:02Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "BTS (방탄소년단) &#39;Take Two&#39; Live Clip #2023BTSFESTA",
-        "description": "Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit http://twitter.com/BTS_twt ...",
+        "publishedAt": "2023-06-14T09:55:53Z",
+        "channelId": "UCn9mJ4htO64-1osMWYu9k5Q",
+        "title": "PSG에게 이강인 영입이 필요한 이유와 우려점은??ㅣ🇫🇷 파비앙",
+        "description": "멤버십 가입하기 : https://www.youtube.com/channel/UCn9mJ4htO64-1osMWYu9k5Q/join\n투네이션 후원하기 : https://toon.at/donate/leestartv\n랩 스튜디오 : https://www.youtube.com/@LAPSTUDIO152\n\n히든K : http://hidden-k.com/\n히팟 : http://hipod.co.kr/\n이스타몰 : http://leestarmall.com\n\n광고문의 : reindeer@leestartv.com\n\n#파비앙 #PSG #이강인",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/owjVpYCmwcg/default.jpg",
+            "url": "https://i.ytimg.com/vi/G73cVgUHiMg/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/owjVpYCmwcg/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/G73cVgUHiMg/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/owjVpYCmwcg/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/G73cVgUHiMg/hqdefault.jpg",
             "width": 480,
             "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/G73cVgUHiMg/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/G73cVgUHiMg/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
           }
         },
-        "channelTitle": "BANGTANTV",
+        "channelTitle": "이스타TV",
+        "tags": [
+          "이스타",
+          "이스타TV",
+          "이주헌",
+          "박종윤",
+          "랩추종윤",
+          "히든풋볼",
+          "추멘",
+          "번개맨",
+          "프리미어리그",
+          "맨유",
+          "맨시티",
+          "아스날",
+          "리버풀",
+          "첼시",
+          "토트넘",
+          "라리가",
+          "레일 마드리드",
+          "바르셀로나",
+          "AT마드리드",
+          "세리에",
+          "밀란",
+          "유벤투스",
+          "인테르",
+          "로마",
+          "분데스리가",
+          "바이에른 뮌헨",
+          "도르트문트",
+          "바이언",
+          "PSG",
+          "K리그",
+          "방구석토크",
+          "주간EPL",
+          "후토크",
+          "WPT",
+          "솔샤르",
+          "과르디올라",
+          "아르테타",
+          "클롭",
+          "램파드",
+          "무리뉴",
+          "손흥민",
+          "축구",
+          "해외축구",
+          "국내축구",
+          "월드컵",
+          "카타르",
+          "카타르 월드컵"
+        ],
+        "categoryId": "17",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-06-13T09:13:02Z"
+        "localized": {
+          "title": "PSG에게 이강인 영입이 필요한 이유와 우려점은??ㅣ🇫🇷 파비앙",
+          "description": "멤버십 가입하기 : https://www.youtube.com/channel/UCn9mJ4htO64-1osMWYu9k5Q/join\n투네이션 후원하기 : https://toon.at/donate/leestartv\n랩 스튜디오 : https://www.youtube.com/@LAPSTUDIO152\n\n히든K : http://hidden-k.com/\n히팟 : http://hipod.co.kr/\n이스타몰 : http://leestarmall.com\n\n광고문의 : reindeer@leestartv.com\n\n#파비앙 #PSG #이강인"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT36M58S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "581517",
+        "likeCount": "10620",
+        "favoriteCount": "0",
+        "commentCount": "1743"
       }
     },
     {
-      "kind": "youtube#searchResult",
-      "etag": "S5jnhSSuMT9MhEU9cq16HssY0D8",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "mxXbzibBuOE"
-      },
+      "kind": "youtube#video",
+      "etag": "G3EjxCFhyXUz1EH9tPWsoRTnUOM",
+      "id": "EtzvOe1q7gs",
       "snippet": {
-        "publishedAt": "2023-06-14T15:00:00Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "&#39;BEYOND THE STORY : 10-YEAR RECORD OF BTS&#39; Official Trailer",
-        "description": "BEYOND_THE_STORY #BTS #방탄소년단 'BEYOND THE STORY : 10-YEAR RECORD OF BTS' The First Ever Official Book ...",
+        "publishedAt": "2023-06-14T03:00:12Z",
+        "channelId": "UCNhofiqfw5nl-NeDJkXtPvw",
+        "title": "최고의 절경을 가진 화산에 가보다 【인도네시아2】",
+        "description": "이 영상은 [여기어때]의 유료광고를 포함하고 있습니다.\n\n혼자는...\n익듁하니까...\n--------------------------------------\n카메라\n\nGopro11\nGalaxy S21 Ultra\n--------------------------------------\n배경음악\n\nKevin MacLeod - Thaxted (Gustav Holst)\nhttps://www.youtube.com/watch?v=SLgsdW3wKYo\n\nKevin MacLeod - Pleasant Porridge\nhttps://www.youtube.com/watch?v=ud8p5XI8WFA",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/mxXbzibBuOE/default.jpg",
+            "url": "https://i.ytimg.com/vi/EtzvOe1q7gs/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/mxXbzibBuOE/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/EtzvOe1q7gs/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/mxXbzibBuOE/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/EtzvOe1q7gs/hqdefault.jpg",
             "width": 480,
             "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/EtzvOe1q7gs/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/EtzvOe1q7gs/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
           }
         },
-        "channelTitle": "BANGTANTV",
+        "channelTitle": "빠니보틀 Pani Bottle",
+        "tags": [
+          "쵸단",
+          "김계란",
+          "쵸단 김계란 여행",
+          "카와 이젠",
+          "발리 여행",
+          "인도네시아 여행",
+          "빠니보틀 인도네시아"
+        ],
+        "categoryId": "19",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-06-14T15:00:00Z"
+        "defaultLanguage": "ko",
+        "localized": {
+          "title": "최고의 절경을 가진 화산에 가보다 【인도네시아2】",
+          "description": "이 영상은 [여기어때]의 유료광고를 포함하고 있습니다.\n\n혼자는...\n익듁하니까...\n--------------------------------------\n카메라\n\nGopro11\nGalaxy S21 Ultra\n--------------------------------------\n배경음악\n\nKevin MacLeod - Thaxted (Gustav Holst)\nhttps://www.youtube.com/watch?v=SLgsdW3wKYo\n\nKevin MacLeod - Pleasant Porridge\nhttps://www.youtube.com/watch?v=ud8p5XI8WFA"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT23M1S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "891001",
+        "likeCount": "16042",
+        "favoriteCount": "0",
+        "commentCount": "1816"
       }
     },
     {
-      "kind": "youtube#searchResult",
-      "etag": "eKQzGVPuwTW9PBdj_Eqpc1HpPgI",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "Nbv5ifv736E"
-      },
+      "kind": "youtube#video",
+      "etag": "dWeAcKInZ5CIYkgcDQSDDbWUprQ",
+      "id": "6XuadzAIH-s",
       "snippet": {
-        "publishedAt": "2023-06-15T07:18:51Z",
-        "channelId": "UCovj9nsR7XJyC8RvtvSbWbA",
-        "title": "Kpop Idols who Should Leave their Groups…#shorts#bts#blackpink#twice#kpop#kpopidol#fyp#fypシ",
-        "description": "bts #shorts #fyp #fypシ #btsedits #btsshorts #btstiktok #btsarmy #fypage #youtubeshorts #shortsyoutube #fyptiktok #fyp #jimin ...",
+        "publishedAt": "2023-06-14T11:00:11Z",
+        "channelId": "UC4LW3sOslC14Vn5bcoNUBkg",
+        "title": "한번 사면 30년 쓰니 단골이 없다! 그래도 백화점 입점 안 한 이유는 바로  '이것'? (KBS 20120429 방송)",
+        "description": "■ 4대째 수작업을 고집해온 철 주물 공장 안성주물!\n1910년부터 가마솥을 만들기 시작해 현재 4대에 이른 안성주물. 이곳엔 수작업으로 무쇠 제품을 만들어 온 사람들이 있다. 용광로에서 쇳물을 녹이고 틀을 만드는 것부터 길들이기까지 오로지 수작업을 거쳐 제품을 완성하는 안성주물을 만나보자.\n\n■ 가마솥은 물론 프라이팬, 캠핑용품까지....\n전통 기술로 만드는 현대의 조리기구!\n질 좋은 철과 탄, 석회석을 순서에 따라 넣고 고온에서 뽑아낸 1,400도의 쇳물은 비철 주물 제품과 달리 중금속 걱정이 없고 철분이 많은 조리기구로 만들어진다. 무쇠 제품 하면 떠올리는 가마솥은 물론 프라이팬, 캠핑용품 등 다양한 제품을 만드는 안성주물! 실용성과 디자인까지 고려하며 전통 기술로 만든 안성주물의 무쇠 제품이 현대의 소비자들을 이끈다.\n\n■ 소비자의 관점으로 생각하는 안성주물의 고집!\n견고한 제품으로 단골 없는 가게를 만든다.\n102년을 이어온 안성주물의 가장 큰 특징은 단골이 없다는 것. 그 이유는 한번 사면 30년 이상 사용할 만큼 견고한 제품에 있다. 직접 불이 닿는 바닥의 두께는 더 두껍게, 그리고 참기름을 이용한 코팅으로 녹을 방지한 안성주물의 무쇠제품들. 항상 소비자의 관점으로 제품을 만들고자 노력하는 안성주물의 고집이 단골이 없는 가게를 만든다.\n\n※ 이 영상은 2012년 4월 29일 방영된 [100년의 가게 - 전통을 뛰어넘는 무쇠제품을 만든다. 102년 역사 주물 명가 안성주물] 입니다.\n\n#요리 #캠핑 #다큐",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/Nbv5ifv736E/default.jpg",
+            "url": "https://i.ytimg.com/vi/6XuadzAIH-s/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/Nbv5ifv736E/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/6XuadzAIH-s/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/Nbv5ifv736E/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/6XuadzAIH-s/hqdefault.jpg",
             "width": 480,
             "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/6XuadzAIH-s/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/6XuadzAIH-s/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
           }
         },
-        "channelTitle": "Bts forever",
+        "channelTitle": "KBS 다큐",
+        "tags": ["KBS", "다큐멘터리", "docu", "documentary", "다큐"],
+        "categoryId": "24",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-06-15T07:18:51Z"
+        "localized": {
+          "title": "한번 사면 30년 쓰니 단골이 없다! 그래도 백화점 입점 안 한 이유는 바로  '이것'? (KBS 20120429 방송)",
+          "description": "■ 4대째 수작업을 고집해온 철 주물 공장 안성주물!\n1910년부터 가마솥을 만들기 시작해 현재 4대에 이른 안성주물. 이곳엔 수작업으로 무쇠 제품을 만들어 온 사람들이 있다. 용광로에서 쇳물을 녹이고 틀을 만드는 것부터 길들이기까지 오로지 수작업을 거쳐 제품을 완성하는 안성주물을 만나보자.\n\n■ 가마솥은 물론 프라이팬, 캠핑용품까지....\n전통 기술로 만드는 현대의 조리기구!\n질 좋은 철과 탄, 석회석을 순서에 따라 넣고 고온에서 뽑아낸 1,400도의 쇳물은 비철 주물 제품과 달리 중금속 걱정이 없고 철분이 많은 조리기구로 만들어진다. 무쇠 제품 하면 떠올리는 가마솥은 물론 프라이팬, 캠핑용품 등 다양한 제품을 만드는 안성주물! 실용성과 디자인까지 고려하며 전통 기술로 만든 안성주물의 무쇠 제품이 현대의 소비자들을 이끈다.\n\n■ 소비자의 관점으로 생각하는 안성주물의 고집!\n견고한 제품으로 단골 없는 가게를 만든다.\n102년을 이어온 안성주물의 가장 큰 특징은 단골이 없다는 것. 그 이유는 한번 사면 30년 이상 사용할 만큼 견고한 제품에 있다. 직접 불이 닿는 바닥의 두께는 더 두껍게, 그리고 참기름을 이용한 코팅으로 녹을 방지한 안성주물의 무쇠제품들. 항상 소비자의 관점으로 제품을 만들고자 노력하는 안성주물의 고집이 단골이 없는 가게를 만든다.\n\n※ 이 영상은 2012년 4월 29일 방영된 [100년의 가게 - 전통을 뛰어넘는 무쇠제품을 만든다. 102년 역사 주물 명가 안성주물] 입니다.\n\n#요리 #캠핑 #다큐"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT29M40S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "524803",
+        "likeCount": "4249",
+        "favoriteCount": "0",
+        "commentCount": "346"
       }
     },
     {
-      "kind": "youtube#searchResult",
-      "etag": "1sD5Xzjqks2JGPVBrKOmQdxMnOo",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "i0QT6xigkyo"
-      },
+      "kind": "youtube#video",
+      "etag": "FECfsm9KrhCWz6WS2B7rBgroUaI",
+      "id": "y-zIJLsl4YU",
       "snippet": {
-        "publishedAt": "2023-06-15T14:00:24Z",
-        "channelId": "UCxn8csYeZg6awRnZS-aqg0g",
-        "title": "Behind the Scenes | &quot;Lilith&quot; Music Video with Halsey and SUGA of BTS",
-        "description": "Join us behind the scenes with @halsey and SUGA of @BTS on the set of the “Lilith” Music Video! Listen to \"Lilith ft. SUGA of BTS ...",
+        "publishedAt": "2023-06-14T08:37:21Z",
+        "channelId": "UCYZv9v_bwfMGc64gLRe34OA",
+        "title": "[TV 동물농장 레전드] 아이바오♥러바오와 첫 만남! 낯가리던 그 시절.. 좌충우돌 한국 적응기 모음🐼 #TV동물농장 #AnimalFarm #SBSstory",
+        "description": "TV동물농장 761회 160417 좌충우돌 한국 적응기 1탄\nTV동물농장 762회 160424  좌충우돌 한국 적응기 2탄\n\n첫 만남부터 멀리서 한걸음에 달려오며 살갑게 맞이하는 러바오와\n낯을 가리며 쉽사리 경계심을 늦추지 못하는 아이바오! \n판다들의 마음을 얻기 위해 고군분투했던 강철원 사육사와\n중국에서 한국까지 100일간의 판다 커플 한국 입성기!",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/i0QT6xigkyo/default.jpg",
+            "url": "https://i.ytimg.com/vi/y-zIJLsl4YU/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/i0QT6xigkyo/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/y-zIJLsl4YU/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/i0QT6xigkyo/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/y-zIJLsl4YU/hqdefault.jpg",
             "width": 480,
             "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/y-zIJLsl4YU/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/y-zIJLsl4YU/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
           }
         },
-        "channelTitle": "Diablo",
+        "channelTitle": "SBS STORY",
+        "tags": [
+          "SBS",
+          "SBSStory",
+          "교양",
+          "sbs",
+          "동물농장",
+          "동물",
+          "신동엽",
+          "정선희",
+          "토니안",
+          "animal",
+          "Animal Farm",
+          "동물농장쇼츠",
+          "동물농장shorts",
+          "sbsstory",
+          "동물농장판다",
+          "동물농장아이바오",
+          "동물농장러바오",
+          "동물농장아이바오러바오",
+          "동물농장러바오모음",
+          "동물농장아이바오모음",
+          "러바오아이바오모음",
+          "러바오다시보기",
+          "아이바오다시보기",
+          "아이바오모음",
+          "러바오모음",
+          "러바오적응기",
+          "아이바오적응기",
+          "강철원사육사",
+          "동물농장레전드",
+          "동물농장레전드판다",
+          "동물농장레전드러바오",
+          "동물농장레전드아이바오",
+          "동물농장푸바오"
+        ],
+        "categoryId": "24",
         "liveBroadcastContent": "none",
-        "publishTime": "2023-06-15T14:00:24Z"
+        "localized": {
+          "title": "[TV 동물농장 레전드] 아이바오♥러바오와 첫 만남! 낯가리던 그 시절.. 좌충우돌 한국 적응기 모음🐼 #TV동물농장 #AnimalFarm #SBSstory",
+          "description": "TV동물농장 761회 160417 좌충우돌 한국 적응기 1탄\nTV동물농장 762회 160424  좌충우돌 한국 적응기 2탄\n\n첫 만남부터 멀리서 한걸음에 달려오며 살갑게 맞이하는 러바오와\n낯을 가리며 쉽사리 경계심을 늦추지 못하는 아이바오! \n판다들의 마음을 얻기 위해 고군분투했던 강철원 사육사와\n중국에서 한국까지 100일간의 판다 커플 한국 입성기!"
+        },
+        "defaultAudioLanguage": "ko"
+      },
+      "contentDetails": {
+        "duration": "PT38M44S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "false",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
+      },
+      "statistics": {
+        "viewCount": "332016",
+        "likeCount": "8622",
+        "favoriteCount": "0",
+        "commentCount": "564"
       }
     },
     {
-      "kind": "youtube#searchResult",
-      "etag": "VCvm9hTe5-oTRPSr6GuNm8zMJRg",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "gdZLi9oWNZg"
-      },
+      "kind": "youtube#video",
+      "etag": "LX0x0N3WH1rcV9BlNqXheR8GwLE",
+      "id": "rosJXNdeG24",
       "snippet": {
-        "publishedAt": "2020-08-21T03:58:10Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Dynamite&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Dynamite' Official MV Credits: Director: Yong Seok Choi (Lumpens) Assistant Director: Jihye Yoon (Lumpens) ...",
+        "publishedAt": "2023-06-13T10:55:27Z",
+        "channelId": "UCEHYQlrn01RoUMjC5ubcNHQ",
+        "title": "한국 집이 신기한 마케도니아 엄마의 반응?! 그리고 한국 마트를 가보고 놀란 이유 6년 만에 딸의 한국 집 첫 방문 (한국여행)",
+        "description": "안녕하세요! 오늘 영상은 엄마가 6년만에 첫 방문한 저희 한국집을 소개해드리고 엄마와 한국마트에\n서 장을 봤는데요. 모든게 신기하고 놀란 엄마의 반응을 재미있게 봐주시고요! 구독 좋아요 알림설정 많이 해주세요~ ^^\n\n\n나타샤 인스타: nattasha.an   https://www.instagram.com/nattasha.an/\n병도 인스타: bondong11   https://www.instagram.com/bondong11/\n\n협찬및문의메일: bondon7@naver.com\n\n채널 가입 링크: https://www.youtube.com/channel/UCEHYQlrn01RoUMjC5ubcNHQ/join\n가입 해주시면 영상 제작에 많은 힘이 됩니다~~ 🥰\n\n~~~~~~\n\nNatasha's Instagram: https://www.instagram.com/nattasha.an/\nBD's Instagram: https://www.instagram.com/bondong11/\nTikTok: nb_couple   https://www.tiktok.com/@nb_couple?\n\nBusiness email: bondon7@naver.com\n\nMembership link: https://www.youtube.com/channel/UCEHYQlrn01RoUMjC5ubcNHQ/join\nSigning up will give us a great support for making videos~ 🥰",
         "thumbnails": {
           "default": {
-            "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/default.jpg",
+            "url": "https://i.ytimg.com/vi/rosJXNdeG24/default.jpg",
             "width": 120,
             "height": 90
           },
           "medium": {
-            "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/mqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/rosJXNdeG24/mqdefault.jpg",
             "width": 320,
             "height": 180
           },
           "high": {
-            "url": "https://i.ytimg.com/vi/gdZLi9oWNZg/hqdefault.jpg",
+            "url": "https://i.ytimg.com/vi/rosJXNdeG24/hqdefault.jpg",
             "width": 480,
             "height": 360
+          },
+          "standard": {
+            "url": "https://i.ytimg.com/vi/rosJXNdeG24/sddefault.jpg",
+            "width": 640,
+            "height": 480
+          },
+          "maxres": {
+            "url": "https://i.ytimg.com/vi/rosJXNdeG24/maxresdefault.jpg",
+            "width": 1280,
+            "height": 720
           }
         },
-        "channelTitle": "HYBE LABELS",
+        "channelTitle": "NB couple엔비커플",
+        "tags": [
+          "한국마트",
+          "한국 대형 마트",
+          "한국집 반응",
+          "한국 첫방문",
+          "국제커플",
+          "반응",
+          "외국인",
+          "외국인 반응",
+          "한국 마트를 직접 간 유럽엄마",
+          "유럽엄마",
+          "마케도니아 장모님",
+          "마케도니아",
+          "북마케도니아",
+          "국제부부",
+          "국제결혼",
+          "외국인 장모님",
+          "장모님 반응",
+          "한국집을보고놀란외국인반응",
+          "마케도니아커플",
+          "엔비커플",
+          "나타샤 병도",
+          "한국집을 보고 놀란 장모님 반응",
+          "한국 집 깜짝 놀란 반응",
+          "한국 아파트 반응",
+          "한국 마트 반응",
+          "한국 집 첫 방문",
+          "한국 마트 장보기"
+        ],
+        "categoryId": "24",
         "liveBroadcastContent": "none",
-        "publishTime": "2020-08-21T03:58:10Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "RGyKGQkK4iNa7ebOoFyQkQZWJEo",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "H0SW2TzKNp8"
+        "localized": {
+          "title": "한국 집이 신기한 마케도니아 엄마의 반응?! 그리고 한국 마트를 가보고 놀란 이유 6년 만에 딸의 한국 집 첫 방문 (한국여행)",
+          "description": "안녕하세요! 오늘 영상은 엄마가 6년만에 첫 방문한 저희 한국집을 소개해드리고 엄마와 한국마트에\n서 장을 봤는데요. 모든게 신기하고 놀란 엄마의 반응을 재미있게 봐주시고요! 구독 좋아요 알림설정 많이 해주세요~ ^^\n\n\n나타샤 인스타: nattasha.an   https://www.instagram.com/nattasha.an/\n병도 인스타: bondong11   https://www.instagram.com/bondong11/\n\n협찬및문의메일: bondon7@naver.com\n\n채널 가입 링크: https://www.youtube.com/channel/UCEHYQlrn01RoUMjC5ubcNHQ/join\n가입 해주시면 영상 제작에 많은 힘이 됩니다~~ 🥰\n\n~~~~~~\n\nNatasha's Instagram: https://www.instagram.com/nattasha.an/\nBD's Instagram: https://www.instagram.com/bondong11/\nTikTok: nb_couple   https://www.tiktok.com/@nb_couple?\n\nBusiness email: bondon7@naver.com\n\nMembership link: https://www.youtube.com/channel/UCEHYQlrn01RoUMjC5ubcNHQ/join\nSigning up will give us a great support for making videos~ 🥰"
+        },
+        "defaultAudioLanguage": "ko"
       },
-      "snippet": {
-        "publishedAt": "2023-06-14T06:44:26Z",
-        "channelId": "UCNArACYWi43qljYQjMOPRCg",
-        "title": "BTS V EMBARRASSED IN CONCERT 😭 #kpop #bts #blackpink #youtubeshorts",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/H0SW2TzKNp8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/H0SW2TzKNp8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/H0SW2TzKNp8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BTS ⟭⟬ SHYAM",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-06-14T06:44:26Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "7yfmSeTb8vzQhxkRJo2wt4THS7s",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "eM552v7d42g"
+      "contentDetails": {
+        "duration": "PT18M25S",
+        "dimension": "2d",
+        "definition": "hd",
+        "caption": "true",
+        "licensedContent": true,
+        "contentRating": {},
+        "projection": "rectangular"
       },
-      "snippet": {
-        "publishedAt": "2023-06-15T00:00:46Z",
-        "channelId": "UC9vrvNSL3xcWGSkV86REBSg",
-        "title": "Take Two",
-        "description": "Provided to YouTube by AdRev Take Two · BTS (방탄소년단) Take Two ℗ BTS / BIGHIT Released on: 2022-01-05 Auto-generated ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/eM552v7d42g/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/eM552v7d42g/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/eM552v7d42g/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BTS - Topic",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-06-15T00:00:46Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "rNb9WjLTzZVDT3mdAfSbhQN7X-Q",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "XSQ3CJz4UTA"
-      },
-      "snippet": {
-        "publishedAt": "2023-06-15T20:22:47Z",
-        "channelId": "UChlgI3UHCOnwUGzWzbJ3H5w",
-        "title": "의상 전시하고 숙박 상품 내놓고...관광업계 &#39;BTS 특수&#39; / YTN",
-        "description": "BTS 공연 의상 7벌 전시…팬 발길 이어져 BTS 연계 숙박 상품 1박 70만 원…90% 넘게 팔려 한국관광공사, 호주 팬 불러 'BTS 로드' ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/XSQ3CJz4UTA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/XSQ3CJz4UTA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/XSQ3CJz4UTA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": " YTN",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-06-15T20:22:47Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "FgMaWqaMU5c-Pzh8JompSeCS-oA",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "WMweEpGlu_U"
-      },
-      "snippet": {
-        "publishedAt": "2021-05-21T03:46:13Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Butter&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Butter' Official MV Credits: Director: Yong Seok Choi (Lumpens) 1st AD: Jihye Yoon (Lumpens) 2nd AD: Ran ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/WMweEpGlu_U/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/WMweEpGlu_U/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/WMweEpGlu_U/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-05-21T03:46:13Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "Yv9vf4OOsK4teIsqBmVeq6kCSgc",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "-vbvkuMCr8M"
-      },
-      "snippet": {
-        "publishedAt": "2023-06-08T13:00:01Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "BTS (방탄소년단) &#39;아포방포10&#39; Project #2023BTSFESTA",
-        "description": "Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit http://twitter.com/BTS_twt ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/-vbvkuMCr8M/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/-vbvkuMCr8M/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/-vbvkuMCr8M/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-06-08T13:00:01Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "nsI83_9AhzcGsy1MXCxNMT6T6mg",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "XsX3ATc3FbA"
-      },
-      "snippet": {
-        "publishedAt": "2019-04-12T09:00:02Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;작은 것들을 위한 시 (Boy With Luv) (feat. Halsey)&#39; Official MV",
-        "description": "BTS (방탄소년단) '작은 것들을 위한 시 (Boy With Luv) (Feat. Halsey)' Official MV Credits: Director : YongSeok Choi (Lumpens) ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/XsX3ATc3FbA/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/XsX3ATc3FbA/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/XsX3ATc3FbA/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2019-04-12T09:00:02Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "3X6R46tD2M9cDcpU2KxvjRRAyhk",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "HbkBVxU5K5A"
-      },
-      "snippet": {
-        "publishedAt": "2022-04-23T01:00:03Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "BTS (방탄소년단) &#39;Butter&#39; @ The 64th GRAMMY Awards",
-        "description": "Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit http://twitter.com/BTS_twt ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/HbkBVxU5K5A/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/HbkBVxU5K5A/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/HbkBVxU5K5A/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-04-23T01:00:03Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "MQ9XW4QbLvcBvk-kYpAHOvxjFrw",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "DbXMjAYSa68"
-      },
-      "snippet": {
-        "publishedAt": "2021-05-30T10:00:01Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "[CHOREOGRAPHY] BTS (방탄소년단) &#39;Butter&#39; Special Performance Video",
-        "description": "Artist: RM, Jin, SUGA, j-hope, Jimin, V, Jung Kook Production Artist Contents Studio (HYBE 360) Director: Jang Jeong In Assistant ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/DbXMjAYSa68/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/DbXMjAYSa68/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/DbXMjAYSa68/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-05-30T10:00:01Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "ppCFRZgIQIqTvcQq7XZ1EFpsR0A",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "kTlv5_Bs8aw"
-      },
-      "snippet": {
-        "publishedAt": "2017-11-24T09:00:02Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;MIC Drop (Steve Aoki Remix)&#39; Official MV",
-        "description": "BTS (방탄소년단) 'MIC Drop (Steve Aoki Remix)' Official MV Credits: Music Video by GDW, Directed by Woogie Kim Producer: ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/kTlv5_Bs8aw/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/kTlv5_Bs8aw/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/kTlv5_Bs8aw/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2017-11-24T09:00:02Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "dc8pUtVhu2SAh7Mo6T9gASsUvz4",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "Sz12ZdxS0hc"
-      },
-      "snippet": {
-        "publishedAt": "2023-06-16T01:00:11Z",
-        "channelId": "UCTlzx8PsEtsgl3qGC0bMWLw",
-        "title": "BTS Jimin Being Baby Mochi",
-        "description": "He is a born-to-be aegyo king. Fans is calling Jimin mochi because his cheeks resembled the squishiness of a mochi.",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/Sz12ZdxS0hc/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/Sz12ZdxS0hc/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/Sz12ZdxS0hc/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "KPOP VGK",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-06-16T01:00:11Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "Thx3miXAAU24Kf2hwxcb35kJI2o",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "tujUOl6o3aI"
-      },
-      "snippet": {
-        "publishedAt": "2022-10-11T12:08:17Z",
-        "channelId": "UCCqLpG3GyUV_Q7aPh6ve84A",
-        "title": "Christmas people song BTS member dance ||😁💜#shorts #viral #BTS #jimin #taehyung #jungkook #kpop",
-        "description": "Christmas people song BTS member dance  #shorts #viral #BTS #shorts #short #youtubeshorts #bts #btsChristmasEvil ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/tujUOl6o3aI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/tujUOl6o3aI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/tujUOl6o3aI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "That Are Amazing",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-10-11T12:08:17Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "rTfvcdLK2DVXPBNNC52GtNHDOiU",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "CuklIb9d3fI"
-      },
-      "snippet": {
-        "publishedAt": "2021-07-09T03:59:12Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Permission to Dance&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Permission to Dance' Official MV Credits: Director: Yong Seok Choi (Lumpens) & Woogie Kim (MOTHER) ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/CuklIb9d3fI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/CuklIb9d3fI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/CuklIb9d3fI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-07-09T03:59:12Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "NQyyZ05nSheHLhXUNpIW5hV-q4s",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "mzvspmbcB8s"
-      },
-      "snippet": {
-        "publishedAt": "2023-01-19T04:00:10Z",
-        "channelId": "UCT0iBL3ZS4WQDtiDs_UDdhA",
-        "title": "BTS PLAYLIST SUMMER 2023",
-        "description": "Bienvenidos a todos a mi canal! Aquí estaré subiendo videos de distintos grupos de Kpop, esta vez subí distintas canciones de ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/mzvspmbcB8s/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/mzvspmbcB8s/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/mzvspmbcB8s/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "Minjo's",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-01-19T04:00:10Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "r-RSOszhrEdt-plLkFNdB-WtVJI",
-      "id": {
-        "kind": "youtube#channel",
-        "channelId": "UC-HozScSj_9MITaLUpzqj_w"
-      },
-      "snippet": {
-        "publishedAt": "2020-08-22T13:19:08Z",
-        "channelId": "UC-HozScSj_9MITaLUpzqj_w",
-        "title": "KPOP DUB 💜",
-        "description": "Just dubbing for desi kpop lovers     FOR business inquiries contact me on : kpopdubofficial@gmail.com.",
-        "thumbnails": {
-          "default": {
-            "url": "https://yt3.ggpht.com/ATJfnuNAZaWkK2AAnqMsTKdBSI7n5Q1CLqg36jxLgjp5lM4dPm8HmqXE0lur127l2cE2_yW03A=s88-c-k-c0xffffffff-no-rj-mo"
-          },
-          "medium": {
-            "url": "https://yt3.ggpht.com/ATJfnuNAZaWkK2AAnqMsTKdBSI7n5Q1CLqg36jxLgjp5lM4dPm8HmqXE0lur127l2cE2_yW03A=s240-c-k-c0xffffffff-no-rj-mo"
-          },
-          "high": {
-            "url": "https://yt3.ggpht.com/ATJfnuNAZaWkK2AAnqMsTKdBSI7n5Q1CLqg36jxLgjp5lM4dPm8HmqXE0lur127l2cE2_yW03A=s800-c-k-c0xffffffff-no-rj-mo"
-          }
-        },
-        "channelTitle": "KPOP DUB 💜",
-        "liveBroadcastContent": "none",
-        "publishTime": "2020-08-22T13:19:08Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "56VRRX429EBHRlpb0FQWOGoHgyY",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "-5q5mZbe3V8"
-      },
-      "snippet": {
-        "publishedAt": "2020-11-20T04:58:11Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Life Goes On&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Life Goes On' Official MV Credits: Director: Jeon Jung Kook Assistant Director: Yong Seok Choi, Jihye Yoon ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/-5q5mZbe3V8/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/-5q5mZbe3V8/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/-5q5mZbe3V8/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2020-11-20T04:58:11Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "cGpL7CYd8AXtQXKAn_5TlfyukVg",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "voXs1SX2dQI"
-      },
-      "snippet": {
-        "publishedAt": "2022-01-29T11:36:01Z",
-        "channelId": "UC86cMN9ONFz8zXvdYbHWOmw",
-        "title": "BTS v edit this video 💜💜 Akhiyan farebi song 💜💜💜💜💜💜😊☺️☺️ tu cheez badi hai mast 💜💜",
-        "description": "",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/voXs1SX2dQI/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/voXs1SX2dQI/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/voXs1SX2dQI/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "∆•kimdiya•∆",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-01-29T11:36:01Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "rRfDsOV7QRz5yIvxIjS2LQMPupQ",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "IkeZX2hnoOk"
-      },
-      "snippet": {
-        "publishedAt": "2021-09-09T03:00:05Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "[CHOREOGRAPHY] BTS (방탄소년단) &#39;Butter (feat. Megan Thee Stallion)&#39; Special Performance Video",
-        "description": "Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit http://twitter.com/BTS_twt ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/IkeZX2hnoOk/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/IkeZX2hnoOk/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/IkeZX2hnoOk/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2021-09-09T03:00:05Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "tPX3eMdVsHAsWY9t0ICTvLWyH30",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "7C2z4GqqS5E"
-      },
-      "snippet": {
-        "publishedAt": "2018-05-18T09:00:02Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;FAKE LOVE&#39; Official MV",
-        "description": "BTS (방탄소년단) 'FAKE LOVE' Official MV Director : YongSeok Choi (Lumpens) Assistant Director : WonJu Lee, Guzza, ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/7C2z4GqqS5E/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/7C2z4GqqS5E/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/7C2z4GqqS5E/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2018-05-18T09:00:02Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "TNd9iuYSVJr-3Ve5LaKZAETHqkM",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "kXpOEzNZ8hQ"
-      },
-      "snippet": {
-        "publishedAt": "2022-06-10T03:59:38Z",
-        "channelId": "UC3IZKseVpdzPSBaWxBxundA",
-        "title": "BTS (방탄소년단) &#39;Yet To Come (The Most Beautiful Moment)&#39; Official MV",
-        "description": "BTS (방탄소년단) 'Yet To Come (The Most Beautiful Moment)' Official MV Credits: Director: Yong Seok Choi (Lumpens) 1st AD: ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/kXpOEzNZ8hQ/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/kXpOEzNZ8hQ/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/kXpOEzNZ8hQ/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "HYBE LABELS",
-        "liveBroadcastContent": "none",
-        "publishTime": "2022-06-10T03:59:38Z"
-      }
-    },
-    {
-      "kind": "youtube#searchResult",
-      "etag": "_1M89xDG7hB9iQWxhYbSyEZqLFU",
-      "id": {
-        "kind": "youtube#video",
-        "videoId": "RHu6zNsQS3A"
-      },
-      "snippet": {
-        "publishedAt": "2023-06-13T09:22:15Z",
-        "channelId": "UCLkAepWjdylmXSltofFvsYQ",
-        "title": "BTS (방탄소년단) &#39;Take Two&#39; Live Clip (60&quot;) #2023BTSFESTA #TakeTwo",
-        "description": "Connect with BTS: https://ibighit.com/bts http://twitter.com/BTS_bighit http://twitter.com/BTS_twt ...",
-        "thumbnails": {
-          "default": {
-            "url": "https://i.ytimg.com/vi/RHu6zNsQS3A/default.jpg",
-            "width": 120,
-            "height": 90
-          },
-          "medium": {
-            "url": "https://i.ytimg.com/vi/RHu6zNsQS3A/mqdefault.jpg",
-            "width": 320,
-            "height": 180
-          },
-          "high": {
-            "url": "https://i.ytimg.com/vi/RHu6zNsQS3A/hqdefault.jpg",
-            "width": 480,
-            "height": 360
-          }
-        },
-        "channelTitle": "BANGTANTV",
-        "liveBroadcastContent": "none",
-        "publishTime": "2023-06-13T09:22:15Z"
+      "statistics": {
+        "viewCount": "859792",
+        "likeCount": "42110",
+        "favoriteCount": "0",
+        "commentCount": "1289"
       }
     }
-  ]
+  ],
+  "nextPageToken": "CAUQAA",
+  "pageInfo": {
+    "totalResults": 200,
+    "resultsPerPage": 5
+  }
 }

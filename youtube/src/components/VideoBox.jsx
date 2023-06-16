@@ -8,11 +8,14 @@ export default function VideoBox({ item }) {
   };
   return (
     <>
-      <img src={item.snippet.thumbnails.medium.url} onClick={handleClick} />
+      <img
+        src={item.snippet.thumbnails.medium.url}
+        alt="thumbnail"
+        onClick={handleClick}
+      />
       <h1>{item.snippet.title}</h1>
       <p>{item.snippet.channelTitle}</p>
       <p>{item.snippet.publishedAt}</p>
-      <p>{item.snippet.channelId}</p>
     </>
   );
 }

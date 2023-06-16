@@ -14,6 +14,10 @@ function App() {
       element: <Main />,
     },
     {
+      path: "/videos",
+      element: <Main />,
+    },
+    {
       path: "/videos/:keyword",
       element: <List />,
     },
